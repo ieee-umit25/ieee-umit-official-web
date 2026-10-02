@@ -5,16 +5,16 @@ const events = [
   {
     id: 1,
     title: "IEEE DAY",
-    year: "2025-26",
+    year: "2026-27",
     time: "12:30 PM - 1:30 PM",
     image:
-      "https://res.cloudinary.com/dunstvosl/image/upload/v1772900182/WhatsApp_Image_2026-03-07_at_9.36.45_PM_2_nddcqq.jpg",
+      "https://res.cloudinary.com/wg2rax47/image/upload/c_auto,g_north_west,h_1427,w_1098/WhatsApp_Image_2026-10-01_at_5.18.51_PM.jpg",
     overview:
-      `IEEE Day 2025 was celebrated at UMIT, SNDT on 6th and 7th October, bringing together students to celebrate innovation, collaboration, and technology. The event featured an insightful session by Dr. Satyanarayana Bheesette, introducing IEEE sections and the opportunities it offers to students worldwide.
+      `IEEE Day 2026 will be celebrated at UMIT, SNDT on 5th and 6th October, bringing together students to celebrate innovation, collaboration, and technology. The event will feature an insightful session by guest speakers, introducing IEEE sections and the opportunities they offer to students worldwide.
 
-A major highlight of the celebration was the reveal of the first-ever IEEE UMIT website, showcasing information about IEEE, events, and blogs. Another special moment was the launch of the magazine GAIA 2.0, highlighting creativity, technology, and sustainability.
+A major highlight of the celebration will be the reveal of the IEEE UMIT website, showcasing information about IEEE, upcoming events, and blogs. Another special moment will be the launch of the magazine, highlighting creativity, technology, and sustainability.
 
-The event also included a trophy distribution ceremony honoring senior council members for their dedication and contributions to IEEE UMIT. The celebration reflected the spirit of teamwork, learning, and the shared vision of advancing technology for humanity.`,
+The event will also include a trophy distribution ceremony to honor senior council members for their dedication and contributions to IEEE UMIT. The celebration will bring students together in the spirit of teamwork, learning, and innovation, while reflecting IEEE's shared vision of advancing technology for humanity.`,
     gallery: [
       "https://res.cloudinary.com/dunstvosl/image/upload/v1772900192/WhatsApp_Image_2026-03-07_at_9.36.44_PM_1_ind1th.jpg",
       "https://res.cloudinary.com/dunstvosl/image/upload/v1772900185/WhatsApp_Image_2026-03-07_at_9.36.45_PM_1_u62jfk.jpg",
