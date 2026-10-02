@@ -29,7 +29,7 @@ export function Developer() {
     },
     {
       name: "Riya Keshwani",
-      role: "Technology & Publicity Director",
+      role: "Technology & Publicity Director 26-27",
       img: "https://res.cloudinary.com/c2ne1cno/image/upload/v1790744186/IMG-20260919-WA0025_2.jpg",
       email: "riyakeswani473@gmail.com",
       linkedin:
