@@ -22,26 +22,26 @@ export default function Testimonials() {
     {
       text: "Being the Chairperson has been an incredible journey of growth and responsibility. Leading initiatives, supporting the team, and turning ideas into meaningful experiences has helped me develop my leadership and decision-making skills.",
       name: "Ms. Shalvi Yeole",
-      role: "Chairperson",
+      role: "Ex-Chairperson",
       image: "https://res.cloudinary.com/aoglrtot/image/upload/v1790842520/Screenshot_1-10-2026_134259_www.instagram.com.jpg",
     },
     {
       text: "Being the Co-Chairperson has given me the opportunity to collaborate with an amazing team, coordinate events, and bring new ideas to life. My IEEE journey has strengthened my communication, teamwork, and organizational skills.",
       name: "Ms. Srushti Desai",
-      role: "Co-Chairperson",
+      role: "Ex-Co-Chairperson",
       image: "https://res.cloudinary.com/aoglrtot/image/upload/v1790842528/Screenshot_1-10-2026_134319_www.instagram.com.jpg",
     },
     {
   text: "Serving as the Secretary has helped me become more organized, responsible, and confident in communication. IEEE has given me the opportunity to coordinate with members, manage important tasks, and contribute to the success of our team.",
   name: "Ms. Vaishnavi Balodhi",
-  role: "Secretary",
+  role: "Ex-Secretary",
   image: "https://res.cloudinary.com/aoglrtot/image/upload/v1790842535/Screenshot_1-10-2026_134329_www.instagram.com.jpg",
 }
 ,
     {
       text: "Being the Treasurer has taught me the importance of accountability, planning, and attention to detail. My IEEE journey has strengthened my management and teamwork skills while giving me valuable experience in handling responsibilities.",
       name: "Ms. Gayatri Naik",
-      role: "Treasurer",
+      role: "Ex-Treasurer",
       image: "https://res.cloudinary.com/aoglrtot/image/upload/v1790842545/Screenshot_1-10-2026_134342_www.instagram.com.jpg",
     },
   ];

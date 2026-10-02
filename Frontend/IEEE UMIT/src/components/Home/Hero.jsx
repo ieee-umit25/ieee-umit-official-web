@@ -4,8 +4,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const HeroCarouselImages = [
   "https://res.cloudinary.com/wg2rax47/image/upload/f_auto/q_auto/Screenshot_2026-09-19_133205.png",
-  "https://res.cloudinary.com/dunstvosl/image/upload/v1760181934/5e4b6451-01a1-4dff-9b45-ed08978c9009_x0cwlu.jpg",
-  "https://res.cloudinary.com/dunstvosl/image/upload/v1760182699/5ec27036-4927-4f80-96ee-e7e84d0e13cd_ps2bii.jpg",
+  "https://res.cloudinary.com/aoglrtot/image/upload/v1790941356/IEEE_group_photo.jpg",
   "https://res.cloudinary.com/dunstvosl/image/upload/v1760183621/WhatsApp_Image_2025-10-11_at_5.23.18_PM_uovnbt.jpg",
 ];
 

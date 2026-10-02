@@ -115,7 +115,7 @@ const members = [
 
 // ================= (JC) =================
 const juniorCouncil = [
-  { name: "Sumera Feroz", role: "Technical" },
+
   { name: "Tanushka Ahirrao", role: "Technical" },
   { name: "Anuja Pisal", role: "Technical" },
 
