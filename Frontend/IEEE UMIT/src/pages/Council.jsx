@@ -149,8 +149,8 @@ const faculty = {
   name: "Dr. Shikha Nema",
   role: "Professor, (HoD of ENC)",
   img: "https://res.cloudinary.com/dunstvosl/image/upload/v1759424067/WhatsApp_Image_2025-10-02_at_8.50.24_PM_jvby67.jpg",
-  email: "#",
-  linkedin:"https://www.linkedin.com/company/umit-ieee"
+  email: "ieee.umit.2627@gmail.com",
+  linkedin:"https://www.linkedin.com/in/dr-shikha-nema-70198347?utm_source=share_via&utm_content=profile&utm_medium=member_android"
 };
 
 // hero section
