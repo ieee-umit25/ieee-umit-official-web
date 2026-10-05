@@ -15,7 +15,7 @@ export function Developer() {
     {
       name: "Riya Keswani",
       role: "Technology & Publicity Director 26-27",
-      img: "https://res.cloudinary.com/c2ne1cno/image/upload/v1790744186/IMG-20260919-WA0025_2.jpg",
+      img: "https://res.cloudinary.com/ttxqnjye/image/upload/f_auto,q_auto/IEEE_RIAPHOTO",
       email: "riyakeswani473@gmail.com",
       linkedin:
         "https://www.linkedin.com/in/riya-keswani-0b8b66310?utm_source=share_via&utm_content=profile&utm_medium=member_ios",

@@ -96,7 +96,7 @@ const members = [
     role: "Technology & Publicity Director",
     email: "riyakeswani473@gmail.com",
     linkedin: "https://www.linkedin.com/in/riya-keswani-0b8b66310",
-    img: "https://res.cloudinary.com/ktpdbtpf/image/upload/v1790517114/IMG-20260919-WA0025.jpg"
+    img: "https://res.cloudinary.com/ttxqnjye/image/upload/f_auto,q_auto/IEEE_RIAPHOTO"
   },
   {
     name: "Shreya Tripathi",
