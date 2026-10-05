@@ -6,6 +6,21 @@ const scImg =
 export function Developer() {
   const members = [
     {
+      name: "Hritika Chavan",
+      role: "Technology & Publicity Director 26-27",
+      email: "hritika.umit@gmail.com",
+      linkedin: "https://www.linkedin.com/in/hritika-chavan-68865932b",
+      img: "https://res.cloudinary.com/wg2rax47/image/upload/c_auto,g_north_west,h_1427,w_1096/f_auto/q_auto/WhatsApp_Image_2026-09-28_at_1.22.20_PM.jpg",
+    },
+    {
+      name: "Riya Keswani",
+      role: "Technology & Publicity Director 26-27",
+      img: "https://res.cloudinary.com/c2ne1cno/image/upload/v1790744186/IMG-20260919-WA0025_2.jpg",
+      email: "riyakeswani473@gmail.com",
+      linkedin:
+        "https://www.linkedin.com/in/riya-keswani-0b8b66310?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+    },
+    {
       name: "Humaira Samani",
       role: "Technology and Publicity Director 25-26",
       email: "humairaworkc@gmail.com",
@@ -19,21 +34,6 @@ export function Developer() {
       email: "rakshandaarwari659@gmail.com",
       linkedin: "https://www.linkedin.com/in/rakshanda-arwari-712366301",
       img: "https://res.cloudinary.com/dunstvosl/image/upload/v1759572653/IMG_20250830_004257_297_gsayfd.webp",
-    },
-    {
-      name: "Hritika Chavan",
-      role: "Technology & Publicity Director 26-27",
-      email: "hritika.umit@gmail.com",
-      linkedin: "https://www.linkedin.com/in/hritika-chavan-68865932b",
-      img: "https://res.cloudinary.com/wg2rax47/image/upload/c_auto,g_north_west,h_1427,w_1096/f_auto/q_auto/WhatsApp_Image_2026-09-28_at_1.22.20_PM.jpg",
-    },
-    {
-      name: "Riya Keshwani",
-      role: "Technology & Publicity Director 26-27",
-      img: "https://res.cloudinary.com/c2ne1cno/image/upload/v1790744186/IMG-20260919-WA0025_2.jpg",
-      email: "riyakeswani473@gmail.com",
-      linkedin:
-        "https://www.linkedin.com/in/riya-keswani-0b8b66310?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
     },
   ];
 
