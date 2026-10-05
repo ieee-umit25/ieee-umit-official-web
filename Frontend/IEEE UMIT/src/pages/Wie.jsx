@@ -22,7 +22,7 @@ export function Wie() {
   const members = [
      {
     name: "Disha Vartak",
-    role: "Wie Chairperson",
+    role: "WIE Chairperson",
     email: "dishadvartak@gmail.com",
     linkedin: "https://www.linkedin.com/in/disha-vartak-901303289",
     img : "https://res.cloudinary.com/ktpdbtpf/image/upload/v1790833179/disha_vartak.png"
@@ -38,8 +38,8 @@ export function Wie() {
   {
     name: "Deeksha Shetty ",
     role: "WIE Creative Head",
-    email: "dwivedi.riya753@gmail.com",
-    linked:"https://www.linkedin.com/in/deeksha-shetty-00a56527",
+    email: "shettydee1407@gmail.com",
+    linkedin:"https://www.linkedin.com/in/deeksha-shetty-00a565270?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     img:"https://res.cloudinary.com/ktpdbtpf/image/upload/v1790833456/Deeksha_Shetty-_Creative_head.jpg"
 
   },

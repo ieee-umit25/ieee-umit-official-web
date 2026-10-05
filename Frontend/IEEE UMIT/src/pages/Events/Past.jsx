@@ -38,11 +38,13 @@ export const EventCard = ({
       onClick={() => setIsOpen(!isOpen)}
     >
       {/* Event Image */}
-      <img
-        src={image}
-        alt={title}
-        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-      />
+      {image && (
+        <img
+          src={image}
+          alt={title}
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+        />
+      )}
 
       {/* Type Badge */}
       <span className="absolute top-3 right-3 font-bold bg-[hsl(222.2_47.4%_11.2%)] text-white text-xs px-3 py-1 rounded-full">
@@ -65,9 +67,11 @@ export const EventCard = ({
           {title}
         </h3>
 
-        <p className="text-sm text-gray-300 mb-4 line-clamp-4">
-          {description}
-        </p>
+        {description && (
+          <p className="text-sm text-gray-300 mb-4 line-clamp-4">
+            {description}
+          </p>
+        )}
 
         {/* Date */}
         <div className="flex items-center text-sm mb-2">
@@ -121,75 +125,63 @@ export const EventCard = ({
   );
 };
 
+// Events listed in Reverse Chronological Order
 const pastEvents = [
   {
     id: 1,
-    title: "Murder Mystery (IEEE Day Pre Event)",
-    date: "Sep 30, 2024",
-    time: "—",
+    title: "Electronic Product Design Workshop",
+    date: "Sep 17-18, 2026",
+    time: "9:30 AM – 4:00 PM",
     description:
-      "An interactive pre-event to IEEE Day, designed to challenge participants critical thinking and teamwork skills through an immersive murder mystery experience.",
-    image:
-      "https://res.cloudinary.com/dunstvosl/image/upload/v1759502066/Screenshot_2025-10-03_200401_lxsux5.png",
-    type: "IEEE DAY PRE EVENT",
-    location: "UMIT, Conference Room",
-  },
+      "A 2-Day immersive, hands-on workshop on electronic product design, circuit development, and fabrication to turn ideas into practical prototypes.",
+    overview:
+      `The Department of Electronics & Communication Engineering, in association with E-Cell UMIT, IEEE UMIT & IIC UMIT Councils, presents a 2-Day Electronic Product Design Workshop!
 
+Get ready for an immersive, hands-on experience where you'll explore electronic product design, circuit development, and fabrication, taking your ideas from design to a practical prototype.
+
+Instructions for Participants:
+• Bring a fully charged laptop for both days.
+• Download and install KiCad and Eagle software on your laptop before attending the program.
+• A 45-minute break will be provided each day. Please carry your tiffin/lunch box.
+• Have a circuit design already prepared? Bring it along for fabrication during the program.
+
+Organized by:
+Department of Electronics & Communication Engineering, Usha Mittal Institute of Technology (UMIT), SNDT Women's University, Mumbai
+
+In association with:
+E-Cell UMIT | IEEE UMIT | IIC UMIT`,
+    image: "https://res.cloudinary.com/wg2rax47/image/upload/c_auto,g_north_west,h_1427,w_1098/c_crop,g_north_west,h_1450,w_1080/f_auto/q_auto/YOUR_PARAGRAPH_TEXT.png",
+    type: "WORKSHOP",
+    location: "Room 401, 4th Floor, UMIT, SNDT",
+  },
   {
     id: 2,
-    title: "IEEE Day 2024-25",
-    date: "Oct 01, 2024",
+    title: "SIH Internal Hackathon",
+    date: "Sep 17, 2026",
     time: "—",
     description:
-      "Celebrating IEEE Day with talks, networking, competition and innovation showcases.",
+      "IEEE UMIT’s internal Smart India Hackathon event, where student teams developed innovative solutions around real-world problem statements.",
     image:
-      "https://res.cloudinary.com/dunstvosl/image/upload/v1759501663/Screenshot_2025-10-03_195732_bzay7h.png",
-    type: "IEEE DAY",
-    location: "UMIT, Conference Room",
+      "https://res.cloudinary.com/c2ne1cno/image/upload/f_auto,q_auto/ieee1",
+    type: "SMART INDIA HACKATHON",
+    location: "SNDT Women's University, UMIT",
   },
-
   {
     id: 3,
-    title: "Gen AI with Pieces",
-    date: "Nov 14, 2024",
-    time: "—",
+    title: "Entrepreneurship & Innovation in Tech",
+    date: "Sep 03, 2026",
+    time: "11:30 AM onwards",
     description:
-      "Introductory Workshop on Gen AI fundamentals using Pieces.",
+      "An entrepreneurship and innovation in technology session featuring an industry speaker and insights into building ideas, innovation and technology.",
+    overview:
+      `The Department of Electronics & Communication Engineering, in collaboration with the AI Department, presents Entrepreneurship & Innovation in Tech. The session brings students an opportunity to explore entrepreneurship, innovation and technology through an engaging industry-focused session featuring Ramesh Somani, Founder of Exhibit Group and Chief Editor & Publisher of BBC TopGear India.`,
     image:
-      "https://res.cloudinary.com/dunstvosl/image/upload/v1759501529/Screenshot_2025-10-03_195511_jp1emn.png",
+      "https://res.cloudinary.com/c2ne1cno/image/upload/v1790510222/ieee3.png",
     type: "WORKSHOP",
-    location: "UMIT, Room No 405",
+    location: "UMIT, 5th Floor Auditorium",
   },
-
   {
     id: 4,
-    title:
-      "Industrial Visit - Udaipur, Jodhpur, Jaisalmer & Sam (Desert)",
-    date: "Dec 28-29, 2024",
-    time: "—",
-    description:
-      "An educational industrial visit combined with travel experiences in Udaipur, Jodhpur, Jaisalmer and Sam (Desert).",
-    image:
-      "https://res.cloudinary.com/dunstvosl/image/upload/v1759510398/Screenshot_2025-10-03_222207_a2n07j.png",
-    type: "INDUSTRIAL VISIT",
-    location: "Udaipur, Jodhpur, Jaisalmer, Sam (Desert)",
-  },
-
-  {
-    id: 5,
-    title: "HackX 2024-25",
-    date: "Feb 22-23, 2025",
-    time: "—",
-    description:
-      "Annual Hackathon HackX 2024-25 featuring student innovation and problem solving.",
-    image:
-      "https://res.cloudinary.com/dunstvosl/image/upload/v1759501305/Screenshot_2025-10-03_195115_es91pf.png",
-    type: "HACKATHON",
-    location: "NMIMS Navi Mumbai",
-  },
-
-  {
-    id: 6,
     title: "HackFusion",
     date: "Feb 07, 2026",
     time: "—",
@@ -201,9 +193,8 @@ const pastEvents = [
     location: "SPIT, Mumbai",
     sponsors: sponsors,
   },
-
   {
-    id: 7,
+    id: 5,
     title: "Mechatron Robotics",
     date: "Oct 14, 2025",
     time: "1:00 PM - 3:30 PM",
@@ -220,33 +211,66 @@ The workshop also included discussions on sensors, actuators, and controllers, f
     type: "WORKSHOP",
     location: "UMIT",
   },
-
   {
-    id: 8,
-    title: "Entrepreneurship & Innovation in Tech",
-    date: "Sep 03, 2026",
-    time: "11:30 AM onwards",
-    description:
-      "An entrepreneurship and innovation in technology session featuring an industry speaker and insights into building ideas, innovation and technology.",
-    overview:
-      `The Department of Electronics & Communication Engineering, in collaboration with the AI Department, presents Entrepreneurship & Innovation in Tech. The session brings students an opportunity to explore entrepreneurship, innovation and technology through an engaging industry-focused session featuring Ramesh Somani, Founder of Exhibit Group and Chief Editor & Publisher of BBC TopGear India.`,
-    image:
-      "https://res.cloudinary.com/c2ne1cno/image/upload/v1790510222/ieee3.png",
-    type: "WORKSHOP",
-    location: "UMIT, 5th Floor Auditorium",
-  },
-
-  {
-    id: 9,
-    title: "SIH Internal Hackathon",
-    date: "Sep 17, 2026",
+    id: 6,
+    title: "HackX 2024-25",
+    date: "Feb 22-23, 2025",
     time: "—",
     description:
-      "IEEE UMIT’s internal Smart India Hackathon event, where student teams developed innovative solutions around real-world problem statements.",
+      "Annual Hackathon HackX 2024-25 featuring student innovation and problem solving.",
     image:
-      "https://res.cloudinary.com/c2ne1cno/image/upload/f_auto,q_auto/ieee1",
-    type: "SMART INDIA HACKATHON",
-    location: "SNDT Women's University, UMIT",
+      "https://res.cloudinary.com/dunstvosl/image/upload/v1759501305/Screenshot_2025-10-03_195115_es91pf.png",
+    type: "HACKATHON",
+    location: "NMIMS Navi Mumbai",
+  },
+  {
+    id: 7,
+    title:
+      "Industrial Visit - Udaipur, Jodhpur, Jaisalmer & Sam (Desert)",
+    date: "Dec 28-29, 2024",
+    time: "—",
+    description:
+      "An educational industrial visit combined with travel experiences in Udaipur, Jodhpur, Jaisalmer and Sam (Desert).",
+    image:
+      "https://res.cloudinary.com/dunstvosl/image/upload/v1759510398/Screenshot_2025-10-03_222207_a2n07j.png",
+    type: "INDUSTRIAL VISIT",
+    location: "Udaipur, Jodhpur, Jaisalmer, Sam (Desert)",
+  },
+  {
+    id: 8,
+    title: "Gen AI with Pieces",
+    date: "Nov 14, 2024",
+    time: "—",
+    description:
+      "Introductory Workshop on Gen AI fundamentals using Pieces.",
+    image:
+      "https://res.cloudinary.com/dunstvosl/image/upload/v1759501529/Screenshot_2025-10-03_195511_jp1emn.png",
+    type: "WORKSHOP",
+    location: "UMIT, Room No 405",
+  },
+  {
+    id: 9,
+    title: "IEEE Day 2024-25",
+    date: "Oct 01, 2024",
+    time: "—",
+    description:
+      "Celebrating IEEE Day with talks, networking, competition and innovation showcases.",
+    image:
+      "https://res.cloudinary.com/dunstvosl/image/upload/v1759501663/Screenshot_2025-10-03_195732_bzay7h.png",
+    type: "IEEE DAY",
+    location: "UMIT, Conference Room",
+  },
+  {
+    id: 10,
+    title: "Murder Mystery (IEEE Day Pre Event)",
+    date: "Sep 30, 2024",
+    time: "—",
+    description:
+      "An interactive pre-event to IEEE Day, designed to challenge participants critical thinking and teamwork skills through an immersive murder mystery experience.",
+    image:
+      "https://res.cloudinary.com/dunstvosl/image/upload/v1759502066/Screenshot_2025-10-03_200401_lxsux5.png",
+    type: "IEEE DAY PRE EVENT",
+    location: "UMIT, Conference Room",
   },
 ];
 
